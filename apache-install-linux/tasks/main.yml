@@ -1,0 +1,7 @@
+---
+# tasks file for apache-install-linux
+
+- include_role:
+    name: apache-install-linux
+    tasks_from: 'install-apache'
+  when: install_apache == 'True'

@@ -1,0 +1,5 @@
+---
+# handlers file for apache-install-linux
+
+- name: restart iptables
+  service: name=iptables enabled=yes state=restarted

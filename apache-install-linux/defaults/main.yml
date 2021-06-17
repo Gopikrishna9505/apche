@@ -1,0 +1,6 @@
+---
+# defaults file for apache-install-linux
+
+install_apache: True
+update_iptables_http: True
+http_port: 80
